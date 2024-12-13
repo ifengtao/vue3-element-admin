@@ -1,15 +1,15 @@
-import { createStore, defineStore } from 'pinia'
+import { createPinia } from 'pinia'
 
 import adminStore from '@/store/module/admin'
-const BaseStore = defineStore({
+const BaseStore = {
     state() {
     },
     getters: {
     },
     actions: {
     },
-});
-export default createStore({
+};
+export default createPinia({
     modules: {
         admin: adminStore,
     },

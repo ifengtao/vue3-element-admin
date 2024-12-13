@@ -1,6 +1,5 @@
 <template>
     <div>
-
     </div>
 </template>
 
@@ -8,6 +7,4 @@
 
 </script>
 
-<style lang="scss" scoped>
-.box {}
-</style>
+<style lang="scss" scoped></style>
